@@ -13,7 +13,7 @@ cipher_suite = Fernet(encryption_key)
 db_connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="t00r",
+    password="password",
     database="pswd"
 )
 
@@ -135,4 +135,5 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
 
